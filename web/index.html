@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    
+	<title>Shopping Space</title>
+        <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css1/style.css">
+</head>
+
+<body>
+	<header id="main-header">
+		<div class="container">
+			<h1>Shopping Space</h1>
+		</div>	
+	</header>
+    <form action="SearchItem" method="post">
+        
+      <nav id="navbar">
+		<div class="container">
+			<ul>
+                                <li><a href="#">My Account</a></li>
+				<li><a href="C:\Users\Basit\Documents\NetBeansProjects\ShoppingSpace\web\Men">Men</a></li>
+				<li><a href="#">Women</a></li>
+				<li><a href="#">Electronics</a></li>
+				<li><a href="#">Contacts</a></li>
+                                
+			</ul>
+		</div>
+          <section id="search">
+              <div class="container">
+              <form>
+            <input type="text" placeholder="Search your product" name="search">
+            <button type="submit" >submit</button>
+              </form>
+              </div>
+          </section>   
+	</nav>
+    </form>
+    
+	<section id="showcase">
+		<div class="container"> 
+			<h1>One place for all your need.
+			</h1>
+		</div>
+	</section>
+    <div class="container">
+		<section id="main">
+			<h1> Welcome </h1>
+			<p>
+			Shopping space is an online shopping website where you can buy all kind of stuff at an affordable price.
+			</p>
+
+		</section>
+		<aside id="sidebar">
+			<p>Follow us on social media sites </p>
+		</aside>
+	</div>
+    
+   
+    <section id="products">
+     <div class="container">   
+      <form  action="AddCart" method="post">
+          
+        
+        <div class="product">
+        <a href="shoe.jpeg"> <img src="shoe.jpeg" alt="Adidas shoe"/><br><span class="product_name">Nike Shoes </span></a>
+        <input type="submit" value="Add to cart" name = "Nike Shoes">
+        </div>
+    
+        <div class="product">
+        <a href="watch.jpeg"><img src="watch.jpeg" alt=""/><br><span class="product_name">Wrist watch</span></a>
+        <input type="submit" value="Add to cart" name = "Wrist watch">
+        </div>
+
+        <div class="product">
+        <a href="bag.jpeg"><img src="bag.jpeg" alt=""/><br><span class="product_name">School Bag</span></a>
+        <input type="submit" value="Add to cart" name = "School Bag">
+        </div>
+    
+        <div class="product">
+        <a href="goggles.jpeg"><img src="goggles.jpeg" alt=""/><br><span class="product_name">Goggles</span></a>
+        <input type="submit" value="Add to cart" name = "Goggles">
+        </div>
+         
+        <div class="product">
+            <a href="trouser.jpeg"><img src="trouser.jpeg" alt=""/><br><span class="product_name">Trouser</span></a>
+        <input type="submit" value="Add to cart" name = "Trouser">
+        </div>
+
+        <div class="product">
+            <a href="shirt.jpeg"><img src="shirt.jpeg" alt=""/><br><span class="product_name">Shirt</span></a>
+        <input type="submit" value="Add to cart" name = "Shirt">
+        </div>
+      </form>
+     </div>    
+    </section>
+     
+	<footer id="main-footer">
+		<p> copyright &copy;2019 Shopping Space </p>
+	</footer>
+</body>
+</html>
